@@ -1,4 +1,4 @@
 # SortingAlgorithms
 Algorithms for sorting lists in C.
 
-- ![Sort by Insertion]()
+- Sort by Insertion
