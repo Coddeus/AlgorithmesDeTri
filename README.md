@@ -1,4 +1,4 @@
-# SortingAlgorithms
-Algorithms for sorting lists in C.
+# AlgorithmesDeTri
+Algorithmes pour trier des listes, en C
 
-- Sort by Insertion
+- Tri par insertion
