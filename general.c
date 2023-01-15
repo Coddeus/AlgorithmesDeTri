@@ -1,11 +1,20 @@
 #include "general.h"
 
+int listLen;
+int * generateRandomList(){
+    int max, min;
+    printf("list length = ");
+    scanf("%d", &listLen);
+    printf("\nlist max = ");
+    scanf("%d", &max);
+    printf("\nlist min = ");
+    scanf("%d", &min);
+    printf("\n");
 
-int * generateRandomList(size_t n, int max, int min){
-    int* arr = malloc(n * sizeof(int));
+    int* arr = malloc(listLen * sizeof(int));
     srand(time(NULL));
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < listLen; i++)
     {
         arr[i] = rand()%(max+1-min)+min;
     }

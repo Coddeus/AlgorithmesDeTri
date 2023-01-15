@@ -2,5 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-int * generateRandomList(size_t n, int max, int min);
+extern int listLen;
+int * generateRandomList();
 void printList(int list[], size_t lenlist);
