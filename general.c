@@ -1,6 +1,7 @@
 #include "general.h"
 
 int listLen;
+
 int * generateRandomList(){
     int max, min;
     printf("\n");
