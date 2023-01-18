@@ -3,6 +3,7 @@
 int listLen;
 int * generateRandomList(){
     int max, min;
+    printf("\n");
     printf("list length = ");
     scanf("%d", &listLen);
     printf("\nlist max = ");
