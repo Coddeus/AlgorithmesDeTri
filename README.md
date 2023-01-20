@@ -1,7 +1,7 @@
 # SortingAlgorithms
 Algorithms for list sorting in C
 ## List of the algorithms of this repo
-
+### Insertion
 - Insertion sort
 
 ## Running a file
